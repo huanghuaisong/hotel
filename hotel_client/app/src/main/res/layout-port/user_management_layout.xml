@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="用户自助管理界面"/>
+
+    <Button
+        android:id="@+id/reservation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="入住" />
+
+    <Button
+        android:id="@+id/continue_reservation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="续住" />
+    <Button
+        android:id="@+id/book_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="预定" />
+    <Button
+        android:id="@+id/view_consumption_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="查消费" />
+    <Button
+        android:id="@+id/change_password_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="改密码" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出" />
+</LinearLayout>
