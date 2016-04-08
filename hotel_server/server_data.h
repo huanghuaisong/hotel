@@ -4,6 +4,8 @@
 //定义服务器配置
 extern server_config_t server_cfg;
 
+extern client_config_t client_cfg;
+
 //用户账号静态全局变量
 extern unsigned long register_id ;
 
@@ -17,5 +19,7 @@ do \
 	cur->tm_sec,__func__,__LINE__,##args);  \
 	fflush(0); \
 }while(0);
+
+
 
 #endif
